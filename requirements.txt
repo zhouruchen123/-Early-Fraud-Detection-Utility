@@ -1,0 +1,28 @@
+# Time-Aware Utility (TAU) - Requirements
+# Python 3.11+
+
+# Core ML libraries
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+scipy>=1.11.0
+
+# Deep learning (optional, for extended experiments)
+torch>=2.1.0
+
+# Data processing
+imbalanced-learn>=0.11.0  # For SMOTE
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Utilities
+tqdm>=4.65.0
+joblib>=1.3.0
+
+# For reproducibility
+python-dateutil>=2.8.0
+
+# Optional: For running on Modal (cloud GPU)
+# modal>=0.50.0
